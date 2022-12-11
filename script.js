@@ -23,18 +23,23 @@ class Quiz {
     }
 }
 
-var a = new Quiz("die Entwicklung","le développement")
-var b = new Quiz("sich entwickeln","se développer")
-var c = new Quiz("die Frauenanteil","la proportion de femme")
-var d = new Quiz("(Geld) verdienen","gagner (de l'argent)")
-var e = new Quiz("die Führungsposition","le poste de direction")
-var f = new Quiz("das Unternehmen","l'entreprise")
-var g = new Quiz("der Lohn","le salaire")
-var h = new Quiz("der Lohnunterschied","la différence de salaire")
-var i = new Quiz("unterrepräsentiert sein","être sous-représenté")
-var j = new Quiz("überrepräsentiert sein","être surreprésenté")
+var a = new Quiz("die Ordnung","l'ordre")
+var b = new Quiz("die Bildung","l'éducation, la culture")
+var c = new Quiz("die FDJ (Freie Deutsche Jugend)","organisation d'Etat pour la jeunesse de l'ex-RDA")
+var d = new Quiz("das Mitglied (er)","le membre")
+var e = new Quiz("der Einfluss","l'influence")
+var f = new Quiz("jemandem/etwas beeinflussen","influencer quelqu'un/quelque chose")
+var g = new Quiz("die Anpassung","le fait d'être conforme au système, l'adaptation")
+var h = new Quiz("angepasst sein","être conforme (au système)")
+var i = new Quiz("sich ein/bringen lassen","se laisser embrigader")
+var j = new Quiz("etwas zensieren","censurer quelque chose")
+var k = new Quiz("jemandem etwas verbieten (o,o)","interdire quelque chose à quelqu'un")
+var l = new Quiz("etwas fördern","promouvoir quelque chose")
+var m = new Quiz("zu etwas (D) bei/tragen","contribuer à quelque chose")
+var n = new Quiz("eine (politische) Tragweite haben","avoir une portée (politique)")
+var o = new Quiz("seine Überlegenheit zeigen","montrer sa supériorité")
   
-var allemand = [a, b, c, d, e, f, g, h, i, j];
+var allemand = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o];
 shuffle(allemand);
 var p = 0;
 var ga = 0;
@@ -63,7 +68,7 @@ document.addEventListener('keypress', function(event) {
       document.getElementById("traduction").value = "";
     }
     if (kr === fi) {
-      document.getElementById("bon").style.color = "rgb(75, 247, 89)";
+      document.getElementById("bon").style.color = "green";
       timeout = setTimeout(function() {
         document.getElementById("bon").style.color = "transparent";
       },1000)
