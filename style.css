@@ -26,7 +26,7 @@ body{
     padding-right: 130px;
     padding-bottom: 130px;
     padding-top: 130px;
-    margin-top: -180px;
+    margin-top: 310px;
     border-radius: 18px;
     border: 4px solid black;
     background-color: white;
@@ -51,8 +51,6 @@ body{
 .case{
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 50vh;
 }
 
 .case .container{
@@ -62,7 +60,7 @@ body{
     padding-bottom: 40px;
     padding-top: 30px;
     display: block;
-    margin-top: 400px;
+    margin-top: 300px;
     justify-content: center;
     align-items: center;
     border-radius: 18px;
