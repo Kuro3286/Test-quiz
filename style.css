@@ -7,7 +7,7 @@
 }
 
 
-@media (min-width: 200px) {
+@media (min-width: 350px) {
 
     body{
         background: linear-gradient(90deg,#cb27da,#ffb428);
