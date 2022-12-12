@@ -16,18 +16,7 @@
     }
 }
 
-@media (min-width: 1200px) {
-    body{
-        background: linear-gradient(90deg,#cb27da,#ffb428);
-    }
-}
 
-
-@media (max-width: 1201px) {
-    body{
-        background : black;
-    }
-}
 
 .general{
     display: flex;
