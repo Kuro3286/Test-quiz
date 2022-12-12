@@ -7,6 +7,11 @@
 }
 
 
+@media (width: 1080px) {
+    body{
+        background: red;
+    }
+}
 
 
 @media (width: 1280px) {
