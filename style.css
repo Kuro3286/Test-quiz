@@ -7,14 +7,14 @@
 }
 
 
-@media (min-width: 550px) {
+@media (min-width: 750px) {
 
     body{
         background: linear-gradient(90deg,#cb27da,#ffb428);
     }
 }
 
-@media (max-width: 549px) {
+@media (max-width: 749px) {
     body{
         background: black;
     }
