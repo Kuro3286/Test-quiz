@@ -7,7 +7,7 @@
 }
 
 
-@media (max-width: 5000px) {
+@media (max-width: 50000px) {
     body{
         background: red;
     }
