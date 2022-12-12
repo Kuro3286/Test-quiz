@@ -11,7 +11,7 @@ body{
     background: linear-gradient(90deg,#cb27da,#ffb428);
 }
 
-@media (max-width: 300px) {
+@media (max-width: 200px) {
     body{
         background: black;
     }
