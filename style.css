@@ -11,6 +11,12 @@ body{
     background: linear-gradient(90deg,#cb27da,#ffb428);
 }
 
+@media (min-width: 768px) {
+body{
+    background-color: black;
+    }
+}
+
 
 .general{
     display: flex;
