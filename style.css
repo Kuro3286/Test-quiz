@@ -7,7 +7,7 @@
 }
 
 
-@media (width: 1080px) {
+@media (width: 300px) {
     body{
         background: red;
     }
