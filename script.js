@@ -89,10 +89,6 @@ document.addEventListener('keypress', function(event) {
     fi = gt.fr;
     print1 = document.getElementById("print");
     print1.innerHTML = fe;
-    /*compte_vrai1 = document.getElementById("compt_vrai");
-    compte_vrai1.innerHTML = vrai;
-    compte_faux1 = document.getElementById("compt_faux");
-    compte_faux1.innerHTML = faux;*/
     po = po + 1;
   }
 })
