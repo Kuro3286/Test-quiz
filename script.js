@@ -43,8 +43,6 @@ var allemand = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o];
 shuffle(allemand);
 var p = 0;
 var ga = 0;
-var vrai = 0;
-var faux = 0;
 var kr = "";
 
 
