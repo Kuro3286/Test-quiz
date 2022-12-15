@@ -76,7 +76,7 @@ document.addEventListener('keypress', function(event) {
       document.getElementById("mauvais").style.color = "red";
       setTimeout(function() {
         document.getElementById("mauvais").style.color = "transparent";
-      },1000;
+      },1000)
     }
     correction1 = document.getElementById("mot");
     correction1.innerHTML = fi;
