@@ -74,13 +74,11 @@ document.addEventListener('keypress', function(event) {
       timeout = setTimeout(function() {
         document.getElementById("bon").style.color = "transparent";
       },1000)
-      vrai = vrai + 1
     } else {
       document.getElementById("mauvais").style.color = "red";
       setTimeout(function() {
         document.getElementById("mauvais").style.color = "transparent";
       },1000;
-      faux = faux + 1
     }
     correction1 = document.getElementById("mot");
     correction1.innerHTML = fi;
