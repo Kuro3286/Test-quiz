@@ -43,6 +43,8 @@ var allemand = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o];
 shuffle(allemand);
 var p = 0;
 var ga = 0;
+var vrai = 0;
+var faux = 0;
 var kr = "";
 
 
@@ -72,11 +74,13 @@ document.addEventListener('keypress', function(event) {
       timeout = setTimeout(function() {
         document.getElementById("bon").style.color = "transparent";
       },1000)
+      vrai = vrai + 1
     } else {
       document.getElementById("mauvais").style.color = "red";
       setTimeout(function() {
         document.getElementById("mauvais").style.color = "transparent";
-      },1000)
+      },1000;
+      faux = faux + 1
     }
     correction1 = document.getElementById("mot");
     correction1.innerHTML = fi;
@@ -85,6 +89,10 @@ document.addEventListener('keypress', function(event) {
     fi = gt.fr;
     print1 = document.getElementById("print");
     print1.innerHTML = fe;
+    compte_vrai1 = document.getElementById("compt_vrai");
+    compte_vrai1.innerHTML = vrai;
+    compte_faux1 = document.getElementById("compt_faux");
+    compte_faux1.innerHTML = faux;
     po = po + 1;
   }
 })
