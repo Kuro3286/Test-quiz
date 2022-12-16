@@ -1,0 +1,801 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI Semibold, sans-serif;
+}
+
+
+@media (min-width: 1321px){
+
+
+    body{
+        background: linear-gradient(90deg,#cb27da,#ffb428);
+    }
+
+
+    .general{
+        display: flex;
+        justify-content: right;
+    }
+
+
+
+    .general .corr{
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 90px;
+        padding-top: 130px;
+        margin-top: 320px;
+        margin-right: 90px;
+        border-radius: 18px;
+        border: 4px solid black;
+        background-color: white;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    }
+
+    
+
+    .general .corr .comp{
+        display: flex;
+        position: relative;
+        margin-left: -295px;
+        margin-top: 40px;
+        margin-bottom: -50px;
+        padding-left: 32px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 12px;
+        border: 3px solid black;
+    }
+
+
+
+    .general .corr .comp .barre{
+        display: flex;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+
+    .general .corr .comp .c_v{
+        display: flex;
+        margin-left: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+
+
+    .general .corr .comp .c_f{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 32px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+
+
+    .general .corr .comp .barre .bar{
+        display: flex;
+        position: relative;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-radius: 4px;
+        background-color: black;
+    }
+
+
+
+    .general .corr .comp .c_f .compt_faux{
+        display: flex;
+        position: relative;
+        margin: 5px 106px 5px 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        background-color: red;
+    }
+
+
+
+
+    .general .corr .comp .c_v .compt_vrai{
+        display: flex;
+        position: relative;
+        margin: 5px 0 5px 106px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: green;
+    }
+
+
+
+    .general .corr .correc{
+        display: flex;
+        margin-top: -90px;
+        margin-bottom: 115px;
+        margin-left: 100px;
+    }
+
+
+    .general .corr .correc .correction{
+        font-size: 1.1em;
+    }
+
+
+    .general .corr .mt_cr{
+        display: flex;
+        position: relative;
+        margin-left: -190px;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        padding-left: 200px;
+        padding-right: 90px;
+        padding-bottom: 10px;
+        padding-top: 11px;
+        border-radius: 12px;
+        border: 3px solid black;
+    }
+
+
+    .general .corr .mt_cr .mot_corrige{
+        position: relative;
+        font-size: 0.7em;
+    }
+
+
+    .general .corr .mt_cr .mot_corrige .mot{
+        margin-left: -190px;
+        margin-right: -70px;
+        position: relative;
+        color: black;
+    }
+
+
+    .case .container .print{
+        position: relative;
+        display: flex;
+        font-size: 1.1em;
+        margin-top: 50px;
+        justify-content: center;
+        color: black;
+        min-height: 15vh;
+    }
+
+    .case{
+        display: flex;
+        justify-content: center;
+    }
+
+    .case .container{
+        position: absolute;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        margin-top: 300px;
+        border-radius: 18px;
+        border: 4px solid black;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+        background-color: white;
+    }
+
+    .case .container .inputBox{
+        position: relative;
+        justify-content: center;
+        display: block;
+        margin-left: 31px;
+        width: 350px;
+    }
+
+    .case .container .bon{
+        position: relative;
+        display: block;
+        margin-top: -30px;
+        margin-left: 385px;
+        color: transparent;
+        font-size: 2em;
+    }
+
+    .case .container .mauvais{
+        position: relative;
+        display: block;
+        margin-top: -43px;
+        margin-left: 385px;
+        color: transparent;
+        font-size: 2em;
+    }
+
+    .case .container .inputBox input{
+        position: relative;
+        padding: 8px 2px;
+        width: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-color: transparent;
+        font-size: 1.1em;
+        letter-spacing: 0.05em;
+        z-index: 2;
+        caret-color: black;
+        color: black;
+    }
+
+    .case .container .inputBox span{
+        position: absolute;
+        left: 0;
+        padding: 10px 0;
+        pointer-events: none;
+        font-size: 1em;
+        transition: 0.3s;
+        color: black;
+        letter-spacing: 0.05em;
+    }
+
+    .case .container .inputBox input:valid ~ span,
+    .case .container .inputBox input:focus ~ span{
+        font-size: 0.85em;
+        transform: translateY(-28px);
+    }
+
+    .case .container .inputBox i {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg,#cb27da,#ffb428);
+        transition: 0.3s;
+        z-index: 1;
+        border-radius: 4px;
+        pointer-events: none;
+    }
+}
+
+
+@media (min-width: 801px) and (max-width: 1320px){
+
+
+    body{
+        background: black;
+    }
+
+
+    .general{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .general .corr{
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 90px;
+        padding-top: 130px;
+        margin-left: -200px;
+        margin-top: 205px;
+        border-radius: 18px;
+        border: 4px solid black;
+        background-color: white;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    }
+
+
+    .general .corr .comp{
+        display: flex;
+        position: relative;
+        margin-left: -295px;
+        margin-top: 40px;
+        margin-bottom: -50px;
+        padding-left: 32px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 12px;
+        border: 3px solid black;
+    }
+
+
+
+    .general .corr .comp .barre{
+        display: flex;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+
+    .general .corr .comp .c_v{
+        display: flex;
+        margin-left: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+
+
+    .general .corr .comp .c_f{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 32px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+
+
+    .general .corr .comp .barre .bar{
+        display: flex;
+        position: relative;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-radius: 4px;
+        background-color: black;
+    }
+
+
+
+    .general .corr .comp .c_f .compt_faux{
+        display: flex;
+        position: relative;
+        margin: 5px 106px 5px 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        background-color: red;
+    }
+
+
+
+
+    .general .corr .comp .c_v .compt_vrai{
+        display: flex;
+        position: relative;
+        margin: 5px 0 5px 106px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: green;
+    }
+
+
+    .general .corr .correc{
+        display: flex;
+        margin-top: -90px;
+        margin-bottom: 115px;
+        margin-left: 100px;
+    }
+
+
+    .general .corr .correc .correction{
+        font-size: 1.1em;
+    }
+
+
+    .general .mt_cr{
+        display: flex;
+        margin-left: -190px;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        padding-left: 200px;
+        padding-right: 90px;
+        padding-bottom: 10px;
+        padding-top: 11px;
+        border-radius: 12px;
+        border: 3px solid black;
+    }
+
+
+    .general .mt_cr .mot_corrige{
+        position: relative;
+        font-size: 0.7em;
+    }
+
+
+    .general .mt_cr .mot_corrige .mot{
+        margin-left: -190px;
+        margin-right: -70px;
+        position: relative;
+        color: black;
+    }
+
+
+    .case .container .print{
+        position: relative;
+        display: flex;
+        font-size: 1.1em;
+        margin-top: 50px;
+        justify-content: center;
+        color: black;
+        min-height: 15vh;
+    }
+
+    .case{
+        display: flex;
+        justify-content: center;
+    }
+
+    .case .container{
+        position: absolute;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        margin-top: 192px;
+        margin-right: -200px;
+        border-radius: 18px;
+        border: 4px solid black;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+        background-color: white;
+    }
+
+    .case .container .inputBox{
+        position: relative;
+        justify-content: center;
+        display: block;
+        margin-left: 31px;
+        width: 350px;
+    }
+
+    .case .container .bon{
+        position: relative;
+        display: block;
+        margin-top: -30px;
+        margin-left: 385px;
+        color: transparent;
+        font-size: 2em;
+    }
+
+    .case .container .mauvais{
+        position: relative;
+        display: block;
+        margin-top: -43px;
+        margin-left: 385px;
+        color: transparent;
+        font-size: 2em;
+    }
+
+    .case .container .inputBox input{
+        position: relative;
+        padding: 8px 2px;
+        width: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-color: transparent;
+        font-size: 1.1em;
+        letter-spacing: 0.05em;
+        z-index: 2;
+        caret-color: black;
+        color: black;
+    }
+
+    .case .container .inputBox span{
+        position: absolute;
+        left: 0;
+        padding: 10px 0;
+        pointer-events: none;
+        font-size: 1em;
+        transition: 0.3s;
+        color: black;
+        letter-spacing: 0.05em;
+    }
+
+    .case .container .inputBox input:valid ~ span,
+    .case .container .inputBox input:focus ~ span{
+        font-size: 0.85em;
+        transform: translateY(-28px);
+    }
+
+    .case .container .inputBox i {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(90deg,#cb27da,#ffb428);
+        transition: 0.3s;
+        z-index: 1;
+        border-radius: 4px;
+        pointer-events: none;
+    }
+}
+
+
+@media (max-width: 800px){
+
+    body{
+        background-color: black;
+    }
+
+
+    .general{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .general .corr{
+        display: flex;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+        padding-top: 120px;
+        margin-top: -550px;
+        margin-bottom: 400px;
+        border-radius: 18px;
+        border: 4px solid black;
+        background-color: white;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    }
+
+
+    .general .corr .comp{
+        display: flex;
+        position: relative;
+        margin-left: -295px;
+        margin-top: 40px;
+        margin-bottom: -50px;
+        padding-left: 32px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 12px;
+        border: 3px solid black;
+    }
+
+
+
+    .general .corr .comp .barre{
+        display: flex;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+
+    .general .corr .comp .c_v{
+        display: flex;
+        margin-left: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+
+
+    .general .corr .comp .c_f{
+        display: flex;
+        margin-left: 0px;
+        margin-right: 32px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+
+
+    .general .corr .comp .barre .bar{
+        display: flex;
+        position: relative;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-right: 0px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-radius: 4px;
+        background-color: black;
+    }
+
+
+
+    .general .corr .comp .c_f .compt_faux{
+        display: flex;
+        position: relative;
+        margin: 5px 106px 5px 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        background-color: red;
+    }
+
+
+
+
+    .general .corr .comp .c_v .compt_vrai{
+        display: flex;
+        position: relative;
+        margin: 5px 0 5px 106px;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: green;
+    }
+
+
+    .general .corr .correc{
+        display: flex;
+        margin-top: -90px;
+        margin-bottom: 115px;
+        margin-left: 100px;
+    }
+
+
+    .general .corr .correc .correction{
+        font-size: 1.1em;
+    }
+
+
+    .general .mt_cr{
+        display: flex;
+        margin-left: -190px;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        padding-left: 200px;
+        padding-right: 90px;
+        padding-bottom: 10px;
+        padding-top: 11px;
+        border-radius: 12px;
+        border: 3px solid black;
+    }
+
+
+    .general .mt_cr .mot_corrige{
+        position: relative;
+        font-size: 0.7em;
+    }
+
+
+    .general .mt_cr .mot_corrige .mot{
+        margin-left: -190px;
+        margin-right: -70px;
+        position: relative;
+        color: black;
+    }
+
+
+    .case .container .print{
+        position: relative;
+        display: flex;
+        font-size: 1.1em;
+        margin-top: 50px;
+        margin-right: 20px;
+        justify-content: center;
+        color: black;
+        min-height: 15vh;
+    }
+
+    .case{
+        display: flex;
+        justify-content: center;
+    }
+
+    .case .container{
+        position: relative;
+        margin-right: -30px;
+        margin-left: -30px;
+        padding-left: 0px;
+        padding-right: -100px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+        margin-top: 300px;
+        border-radius: 18px;
+        border: 4px solid black;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+        background-color: white;
+    }
+
+    .case .container .inputBox{
+        position: relative;
+        justify-content: center;
+        display: block;
+        margin-left: 40px;
+        margin-right: -50px;
+        width: 350px;
+    }
+
+    .case .container .bon{
+        position: relative;
+        display: block;
+        margin-top: -30px;
+        margin-left: 290px;
+        color: transparent;
+        font-size: 2em;
+    }
+
+    .case .container .mauvais{
+        position: relative;
+        display: block;
+        margin-top: -43px;
+        margin-left: 290px;
+        color: transparent;
+        font-size: 2em;
+    }
+
+    .case .container .inputBox input{
+        position: relative;
+        padding: 4px 2px;
+        width: 245px;
+        border: none;
+        outline: none;
+        background: transparent;
+        background-color: transparent;
+        font-size: 1.1em;
+        letter-spacing: 0.05em;
+        z-index: 2;
+        caret-color: black;
+        color: black;
+    }
+
+    .case .container .inputBox span{
+        position: absolute;
+        left: 0;
+        padding: 8px 0;
+        pointer-events: none;
+        font-size: 1em;
+        transition: 0.3s;
+        color: black;
+        letter-spacing: 0.05em;
+    }
+
+    .case .container .inputBox input:valid ~ span,
+    .case .container .inputBox input:focus ~ span{
+        font-size: 0.85em;
+        transform: translateY(-28px);
+    }
+
+    .case .container .inputBox i {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 70%;
+        height: 3px;
+        background: linear-gradient(90deg,#cb27da,#ffb428);
+        transition: 0.3s;
+        z-index: 1;
+        border-radius: 4px;
+        pointer-events: none;
+    }
+}
