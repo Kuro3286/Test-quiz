@@ -179,7 +179,7 @@
 }
 
 
-@media (min-width: 901px) and (max-width: 1320px){
+@media (min-width: 701px) and (max-width: 1320px){
 
 
     body{
@@ -352,7 +352,7 @@
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 700px){
 
     body{
         background-color: black;
