@@ -43,7 +43,7 @@
         display: flex;
         position: relative;
         margin-left: -295px;
-        margin-top: 40px;
+        margin-top: 45px;
         margin-bottom: -50px;
         padding-left: 32px;
         padding-right: 0px;
@@ -113,6 +113,7 @@
         padding-right: 0px;
         padding-top: 10px;
         background-color: red;
+        filter: drop-shadow(2px 0 5px rgba(255,0,0));
     }
 
 
@@ -126,6 +127,7 @@
         padding-left: 0px;
         padding-right: 0px;
         background-color: green;
+        filter: drop-shadow(2px 0 5px green);
     }
 
 
