@@ -23,23 +23,36 @@ class Quiz {
     }
 }
 
-var a = new Quiz("die Ordnung","l'ordre")
-var b = new Quiz("die Bildung","l'éducation, la culture")
-var c = new Quiz("die FDJ (Freie Deutsche Jugend)","organisation d'Etat pour la jeunesse de l'ex-RDA")
-var d = new Quiz("das Mitglied (er)","le membre")
-var e = new Quiz("der Einfluss","l'influence")
-var f = new Quiz("jemandem/etwas beeinflussen","influencer quelqu'un/quelque chose")
-var g = new Quiz("die Anpassung","le fait d'être conforme au système, l'adaptation")
-var h = new Quiz("angepasst sein","être conforme (au système)")
-var i = new Quiz("sich ein/bringen lassen","se laisser embrigader")
-var j = new Quiz("etwas zensieren","censurer quelque chose")
-var k = new Quiz("jemandem etwas verbieten (o,o)","interdire quelque chose à quelqu'un")
-var l = new Quiz("etwas fördern","promouvoir quelque chose")
-var m = new Quiz("zu etwas (D) bei/tragen","contribuer à quelque chose")
-var n = new Quiz("eine (politische) Tragweite haben","avoir une portée (politique)")
-var o = new Quiz("seine Überlegenheit zeigen","montrer sa supériorité")
-  
-var allemand = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o];
+
+// Die Welt der Mädchen (Station 1)
+var a = new Quiz("Er war einmal... ","Il était une fois")
+var b = new Quiz("das Märchen(-)","le conte")
+var c = new Quiz("märchenhaft","féérique")
+var d = new Quiz("die Märchenwelt","l'univers du conte")
+var e = new Quiz("Märchen erzählen","raconter des histoires")
+var f = new Quiz("Märchen sammeln","collecter des contes")
+var g = new Quiz("mündlich überliefern","transmettre oralement")
+var h = new Quiz("um/arbeiten","remanier, retravailler")
+
+// Märchen und Moral (Station 1)
+var i = new Quiz("eine Botschaft vermitteln","transmettre en message")
+var j = new Quiz("eine Moral lehren","enseigner une morale")
+var k = new Quiz("Werte weiter/geben","transmettre des valeurs")
+var l = new Quiz("ein gutes/schlechtes Vorbild sein","être un bon/mauvais exemple")
+var m = new Quiz("hinter (+D) stecken","se cacher derrière quelque chose")
+var n = new Quiz("einen während Kern haben","avoir un fond de réalité")
+var o = new Quiz("die Realität wider/spiegeln","refléter la réalité")
+var p = new Quiz("grausam","cruel")
+
+//Hilfe
+var q = new Quiz("der Forscher","le chercheur")
+var r = new Quiz("das Volksgut","le bien populaire")
+var s = new Quiz("bewahren","garder, conserver")
+var t = new Quiz("rau und roh","brut, cru")
+var u = new Quiz("die Umarbeitung","le remaniement")
+
+
+var allemand = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u];
 shuffle(allemand);
 var p = 0;
 var ga = 0;
