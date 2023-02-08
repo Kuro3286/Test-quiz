@@ -25,7 +25,7 @@ class Quiz {
 
 
 // Die Welt der Mädchen (Station 1)
-var a = new Quiz("Er war einmal... ","Il était une fois")
+var a = new Quiz("Er war einmal...","Il était une fois")
 var b = new Quiz("das Märchen(-)","le conte")
 var c = new Quiz("märchenhaft","féérique")
 var d = new Quiz("die Märchenwelt","l'univers du conte")
