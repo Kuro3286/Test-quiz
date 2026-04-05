@@ -23,7 +23,6 @@ class Quiz {
     }
 }
 
-
 var allemand = [];
 
 allemand.push(new Quiz("regardless","sans tenir compte/peu importe"))
