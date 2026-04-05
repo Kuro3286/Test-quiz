@@ -24,35 +24,124 @@ class Quiz {
 }
 
 
-// Die Welt der Mädchen (Station 1)
-var a = new Quiz("Er war einmal...","Il était une fois")
-var b = new Quiz("das Märchen(-)","le conte")
-var c = new Quiz("märchenhaft","féérique")
-var d = new Quiz("die Märchenwelt","l'univers du conte")
-var e = new Quiz("Märchen erzählen","raconter des histoires")
-var f = new Quiz("Märchen sammeln","collecter des contes")
-var g = new Quiz("mündlich überliefern","transmettre oralement")
-var h = new Quiz("um/arbeiten","remanier, retravailler")
+var allemand = [];
 
-// Märchen und Moral (Station 1)
-var i = new Quiz("eine Botschaft vermitteln","transmettre en message")
-var j = new Quiz("eine Moral lehren","enseigner une morale")
-var k = new Quiz("Werte weiter/geben","transmettre des valeurs")
-var l = new Quiz("ein gutes/schlechtes Vorbild sein","être un bon/mauvais exemple")
-var m = new Quiz("hinter (+D) stecken","se cacher derrière quelque chose")
-var n = new Quiz("einen während Kern haben","avoir un fond de réalité")
-var o = new Quiz("die Realität wider/spiegeln","refléter la réalité")
-var p = new Quiz("grausam","cruel")
+allemand.push(new Quiz("regardless","sans tenir compte/peu importe"))
+allemand.push(new Quiz("backwards","en arrière"))
+allemand.push(new Quiz("provide","fournir"))
+allemand.push(new Quiz("launch","lancer"))
+allemand.push(new Quiz("fitted with","équipé de"))
+allemand.push(new Quiz("afford","s'offrir/se payer"))
+allemand.push(new Quiz("suitable for","addapter à/convenir à"))
+allemand.push(new Quiz("run on","durer/s'étendre"))
+allemand.push(new Quiz("emit","émettre"))
+allemand.push(new Quiz("smoother","plus lisse"))
+allemand.push(new Quiz("reliable/unreliable","fiable/pas fiable"))
+allemand.push(new Quiz("likely/unlikely","probable/peu probable"))
+allemand.push(new Quiz("affordable","abordable"))
+allemand.push(new Quiz("make","rendre"))
+allemand.push(new Quiz("clinging to","s'accrocher à"))
+allemand.push(new Quiz("smart","intelligent"))
+allemand.push(new Quiz("task","tâche"))
+allemand.push(new Quiz("enhance","améliorer"))
+allemand.push(new Quiz("increasing","plus en plus/augmenter"))
+allemand.push(new Quiz("disrupt","perturber"))
+allemand.push(new Quiz("ability","capacité/aptitude"))
+allemand.push(new Quiz("multiple choice","à choix multiple"))
+allemand.push(new Quiz("device","appareil"))
+allemand.push(new Quiz("span","espace/durée"))
+allemand.push(new Quiz("instead of","au lieu de"))
+allemand.push(new Quiz("tech-free","sans technologie"))
+allemand.push(new Quiz("all in all","dans l'ensemble"))
+allemand.push(new Quiz("tough","dur/solide/résistant"))
+allemand.push(new Quiz("pros and cons","le pour et le contre"))
+allemand.push(new Quiz("tool","outil"))
+allemand.push(new Quiz("in short","en résumé"))
+allemand.push(new Quiz("not to mention","sans parler de"))
+allemand.push(new Quiz("on top of that","pour couronner le tout"))
+allemand.push(new Quiz("on the other hand","d'un autre côté"))
+allemand.push(new Quiz("accuracy","exactitude/justesse/précision"))
+allemand.push(new Quiz("graduate","diplômé"))
+allemand.push(new Quiz("tuition fees","frais de scolarité"))
+allemand.push(new Quiz("student debt","dette étudiante"))
+allemand.push(new Quiz("public funding","financement public"))
+allemand.push(new Quiz("taxpayers","ceux qui payent des impôts"))
+allemand.push(new Quiz("social mobility","mobilité sociale"))
+allemand.push(new Quiz("inequality","inégalité"))
+allemand.push(new Quiz("investment in education","investissement dans l'éducation"))
+allemand.push(new Quiz("healthcare","système/soins de santé"))
+allemand.push(new Quiz("growth","croissance"))
+allemand.push(new Quiz("brorrow","emprunter"))
+allemand.push(new Quiz("owed","devoir (de l'argent)"))
+allemand.push(new Quiz("unfair","injuste"))
+allemand.push(new Quiz("income","salaire"))
+allemand.push(new Quiz("release","libérer"))
+allemand.push(new Quiz("to pass out","transmit"))
+allemand.push(new Quiz("bonding","le lien"))
+allemand.push(new Quiz("gambling","jeu d'argent"))
+allemand.push(new Quiz("trigger","déclencher avec"))
+allemand.push(new Quiz("accurate","précis"))
+allemand.push(new Quiz("a diagnosis","un diagnostic"))
+allemand.push(new Quiz("to prevent","empêcher"))
+allemand.push(new Quiz("a disorder","un trouble"))
+allemand.push(new Quiz("a stage","un stade"))
+allemand.push(new Quiz("to skip","passer/sauter"))
+allemand.push(new Quiz("to arrange","organiser"))
+allemand.push(new Quiz("to struggle","avoir du mal"))
+allemand.push(new Quiz("digital clock","unt horloge numérique"))
+allemand.push(new Quiz("a graph","un graphique"))
+allemand.push(new Quiz("to head out","se rendre/aller"))
+allemand.push(new Quiz("a journey","un trajet"))
+allemand.push(new Quiz("ahead","à l'avance/en avance"))
+allemand.push(new Quiz("broadcast","diffuser"))
+allemand.push(new Quiz("regarding","concernant"))
+allemand.push(new Quiz("relevant","pertinent"))
+allemand.push(new Quiz("to compile","compiler"))
+allemand.push(new Quiz("to embed","intégrer"))
+allemand.push(new Quiz("on the go","en chemin/en route"))
+allemand.push(new Quiz("reviews","des avis"))
+allemand.push(new Quiz("fellow","collègue"))
+allemand.push(new Quiz("gather","rassembler"))
+allemand.push(new Quiz("opt out","en dehors"))
+allemand.push(new Quiz("student loan","prêt étudiant"))
+allemand.push(new Quiz("a major/to major in","la matière étudiée"))
+allemand.push(new Quiz("undergraduate","licence"))
+allemand.push(new Quiz("residency","internat"))
+allemand.push(new Quiz("hustle","boulot étudiant"))
+allemand.push(new Quiz("saddled with debt","criblé de dettes"))
+allemand.push(new Quiz("a down payment","un accompte"))
+allemand.push(new Quiz("a condo","appartement"))
+allemand.push(new Quiz("while","bien que/tandis que/alors que"))
+allemand.push(new Quiz("weheras","tandis que"))
+allemand.push(new Quiz("despite","malgré"))
+allemand.push(new Quiz("although","bien que/même si"))
+allemand.push(new Quiz("comme/puisque","as"))
+allemand.push(new Quiz("consequently","ensuite, par la suite"))
+allemand.push(new Quiz("there for","donc/par conséquent"))
+allemand.push(new Quiz("as well as","ainsi que"))
+allemand.push(new Quiz("even though","même si/bien que"))
+allemand.push(new Quiz("since","puisque"))
+allemand.push(new Quiz("however","cependant"))
+allemand.push(new Quiz("such as","tel que"))
+allemand.push(new Quiz("unlike","contrairement à"))
+allemand.push(new Quiz("pulse","pouls"))
+allemand.push(new Quiz("knee","genou"))
+allemand.push(new Quiz("chemical","produit chimique"))
+allemand.push(new Quiz("cuddle","câlin"))
+allemand.push(new Quiz("tongue","langue"))
+allemand.push(new Quiz("rate","rythme (coeur)"))
+allemand.push(new Quiz("palms","paume"))
+allemand.push(new Quiz("sweat","transpiration"))
+allemand.push(new Quiz("taste","goût"))
+allemand.push(new Quiz("dumb","bête, idiot"))
+allemand.push(new Quiz("mate","s'accoupler"))
+allemand.push(new Quiz("weigh","évaluer/relâcher"))
+allemand.push(new Quiz("release","libérer/relâcher"))
+allemand.push(new Quiz("stink","puer"))
+allemand.push(new Quiz("a reward","une récompense"))
+allemand.push(new Quiz("insane","fou/folle"))
+allemand.push(new Quiz("tend to","avoir tendance à"))
 
-//Hilfe
-var q = new Quiz("der Forscher","le chercheur")
-var r = new Quiz("das Volksgut","le bien populaire")
-var s = new Quiz("bewahren","garder, conserver")
-var t = new Quiz("rau und roh","brut, cru")
-var u = new Quiz("die Umarbeitung","le remaniement")
-
-
-var allemand = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u];
 shuffle(allemand);
 var p = 0;
 var ga = 0;
@@ -117,12 +206,12 @@ if (document.getElementById("c_l").checked){
                     timeout = setTimeout(function() {
                     document.getElementById("bon").style.color = "transparent";
                     },1000)
-                    ger = ger + 5;
+                    ger = ger + 1;
                     ggg = ger.toString();
                     vrai.splice(2, 1, ggg);
                     grr = vrai.join('');
                     compteur_vrai = document.getElementById("compt_vrai").style.padding = grr;
-                    per = per + 5;
+                    per = per + 1;
                     ppp = per.toString();
                     c_v.splice(8,1,106-ppp);
                     prr = c_v.join('');
@@ -132,12 +221,12 @@ if (document.getElementById("c_l").checked){
                     setTimeout(function() {
                     document.getElementById("mauvais").style.color = "transparent";
                     },1000)
-                    fer = fer + 5;
+                    fer = fer + 1;
                     fff = fer.toString();
                     faux.splice(6, 1, fff);
                     frr = faux.join('');
                     compteur_faux = document.getElementById("compt_faux").style.padding = frr;
-                    ker = ker + 5;
+                    ker = ker + 1;
                     console.log(ker);
                     kkk = ker.toString();
                     c_f.splice(3,1,106-kkk);
@@ -160,7 +249,7 @@ if (document.getElementById("c_l").checked){
     print1 = document.getElementById("print");
     print1.innerHTML = fi;
     trad1 = document.getElementById("trad");
-    trad1.innerHTML = "Traduction en allemand";
+    trad1.innerHTML = "Traduction en anglais";
     document.addEventListener('keypress', function(event) {
         var entrer = event.key === 'Enter';
         for (var jh = 0; jh < 1 && entrer; jh++ && entrer<1) {
@@ -175,12 +264,12 @@ if (document.getElementById("c_l").checked){
                     timeout = setTimeout(function() {
                     document.getElementById("bon").style.color = "transparent";
                     },1000)
-                    ger = ger + 5;
+                    ger = ger + 1;
                     ggg = ger.toString();
                     vrai.splice(2, 1, ggg);
                     grr = vrai.join('');
                     compteur_vrai = document.getElementById("compt_vrai").style.padding = grr;
-                    per = per + 5;
+                    per = per + 1;
                     ppp = per.toString();
                     c_v.splice(8,1,106-ppp);
                     prr = c_v.join('');
@@ -190,12 +279,12 @@ if (document.getElementById("c_l").checked){
                     setTimeout(function() {
                     document.getElementById("mauvais").style.color = "transparent";
                     },1000)
-                    fer = fer + 5;
+                    fer = fer + 1;
                     fff = fer.toString();
                     faux.splice(6, 1, fff);
                     frr = faux.join('');
                     compteur_faux = document.getElementById("compt_faux").style.padding = frr;
-                    ker = ker + 5;
+                    ker = ker + 1;
                     console.log(ker);
                     kkk = ker.toString();
                     c_f.splice(3,1,106-kkk);
@@ -241,12 +330,12 @@ function fonction(){
                     timeout = setTimeout(function() {
                     document.getElementById("bon").style.color = "transparent";
                     },1000)
-                    ger = ger + 5;
+                    ger = ger + 1;
                     ggg = ger.toString();
                     vrai.splice(2, 1, ggg);
                     grr = vrai.join('');
                     compteur_vrai = document.getElementById("compt_vrai").style.padding = grr;
-                    per = per + 5;
+                    per = per + 1;
                     ppp = per.toString();
                     c_v.splice(8,1,106-ppp);
                     prr = c_v.join('');
@@ -256,12 +345,12 @@ function fonction(){
                     setTimeout(function() {
                     document.getElementById("mauvais").style.color = "transparent";
                     },1000)
-                    fer = fer + 5;
+                    fer = fer + 1;
                     fff = fer.toString();
                     faux.splice(6, 1, fff);
                     frr = faux.join('');
                     compteur_faux = document.getElementById("compt_faux").style.padding = frr;
-                    ker = ker + 5;
+                    ker = ker + 1;
                     console.log(ker);
                     kkk = ker.toString();
                     c_f.splice(3,1,106-kkk);
@@ -292,7 +381,7 @@ function fonction(){
         print1 = document.getElementById("print");
         print1.innerHTML = fi;
         trad1 = document.getElementById("trad");
-        trad1.innerHTML = "Traduction en allemand";
+        trad1.innerHTML = "Traduction en anglais";
         po = 1;
         document.addEventListener('keypress', function(event) {
         var entrer = event.key === 'Enter';
@@ -308,12 +397,12 @@ function fonction(){
                     timeout = setTimeout(function() {
                     document.getElementById("bon").style.color = "transparent";
                     },1000)
-                    ger = ger + 5;
+                    ger = ger + 1;
                     ggg = ger.toString();
                     vrai.splice(2, 1, ggg);
                     grr = vrai.join('');
                     compteur_vrai = document.getElementById("compt_vrai").style.padding = grr;
-                    per = per + 5;
+                    per = per + 1;
                     ppp = per.toString();
                     c_v.splice(8,1,106-ppp);
                     prr = c_v.join('');
@@ -323,12 +412,12 @@ function fonction(){
                     setTimeout(function() {
                     document.getElementById("mauvais").style.color = "transparent";
                     },1000)
-                    fer = fer + 5;
+                    fer = fer + 1;
                     fff = fer.toString();
                     faux.splice(6, 1, fff);
                     frr = faux.join('');
                     compteur_faux = document.getElementById("compt_faux").style.padding = frr;
-                    ker = ker + 5;
+                    ker = ker + 1;
                     console.log(ker);
                     kkk = ker.toString();
                     c_f.splice(3,1,106-kkk);
